@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Exo);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcdf; }
+
+.heading {
+  text-align: center;
+  color: brown;
+  font-size: 4em;
+  font-weight: 600;
+  font-family: "Exo"; }
+
+.inputHeading, .outputHeading {
+  padding: 1em;
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Exo";
+  text-align: center;
+  background-color: aquamarine; }
+
+#editor {
+  height: 95em;
+  width: 100%;
+  padding: 1.5em 1.5em 0;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: "Courier New";
+  background-color: azure; }
+
+#preview {
+  height: 114em;
+  width: 100%;
+  font-family: 'Montserrat';
+  border: 1px solid #4c4b4b;
+  padding: 1.5em; }
